@@ -1,5 +1,6 @@
 import { Home } from "../views/home.js";
 import { Maravillas } from "../views/maravillas.js";
+import { Paises } from "../views/paises.js";
 
 
 export const router =  (urlHash) => {
@@ -18,9 +19,9 @@ export const router =  (urlHash) => {
             mainRoot.style.backgroundImage = "url('../assets/coliseo.jpg')";
             return mainRoot.appendChild(Maravillas())
         }
-        case "#/maravillas/examples":{
-            // mainRoot.style.backgroundImage = "url('../assets/coliseo.jpg')";
-            return mainRoot.appendChild(Maravillas())
+        case "#/paises":{
+            mainRoot.style.backgroundImage = "url('')";
+            return mainRoot.appendChild(Paises())
         }
     }
 }
