@@ -244,6 +244,7 @@ nav div a:hover {
         width: 79%;
         margin-right: 0;
         padding-right: 10px;
+        justify-content: space-around;
     }
 
     nav div:first-child {
