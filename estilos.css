@@ -34,7 +34,6 @@ nav div:last-child {
     justify-content: space-between;
     align-items: center;
     font-size: 1.5rem;
-    /* background-color: rgba(255, 255, 255, 0.452); */
 
 }
 
@@ -136,7 +135,6 @@ nav div a:hover {
 
 /* ARGENTINA */
 .section-argentina {
-    /* background-color: #2eaf77; */
     width: 100%;
     height: 100vh;
     display: flex;
@@ -156,9 +154,7 @@ nav div a:hover {
 .ctn-map {
     height: 100%;
     width: 50.6%;
-    /* padding-top: 20px; */
     margin-left: auto;
-    /* background-color: aqua; */
     background-color: #8cb9e49c;
     display: flex;
     align-items: center;
@@ -168,9 +164,6 @@ nav div a:hover {
 .ctn-map svg {
     padding-top: 30px;
     width: 90%;
-    /* width: 600px; */
-    /* height: 100%; */
-    /* margin: auto; */
 }
 
 .ctn-map path {
@@ -224,20 +217,12 @@ nav div a:hover {
 
 /* BREAKPOINTS */
 
-
-
 @media (max-width: 576px) {
 
     .home-title {
         font-size: 1.2rem;
         margin-right: 35px;
-        /* margin-bottom: 500px; */
-        /* padding-bottom: 6rem; */
-        /* margin: auto; */
-        /* text-align: start; */
         width: 80%;
-        /* margin-bottom: 90%; */
-        /* background-color: red; */
         display: flex;
         align-items: center;
         justify-content: start;
@@ -322,9 +307,6 @@ nav div a:hover {
         width: 100%;
         height: 60%;
         padding-bottom: 20px;
-        /* margin: auto; */
-        /* overflow: hidden; */
-        /* background-color: transparent; */
 
     }
 
