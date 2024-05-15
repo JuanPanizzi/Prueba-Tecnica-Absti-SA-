@@ -28,13 +28,16 @@ nav div:last-child{
     width: 40%;
     display: flex;
     justify-content:space-between;
-    font-size: 1.5rem;
-
+    /* font-size: 1.5rem; */
+    /* background-color: rgba(255, 255, 255, 0.452); */
+    
 }
 nav div a{
     text-decoration: none;
     color: black;
     font-weight: 500;
+    font-size: 1.1rem;
+    padding-top: 4px;
 }
 nav div a:hover{
     font-weight: 700;
@@ -60,7 +63,7 @@ nav div a:hover{
     justify-content: center;
     text-align: center;
     width: 50%;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     margin-bottom: 100px;
 }
 /* MARAVILLAS */
@@ -68,29 +71,33 @@ nav div a:hover{
 .maravilla-title{
 
     margin-right: auto;
-    padding-top: 5%;
-    padding-right: 65%;
+    padding-top: 15%;
+    padding-right: 60%;
 }
 .btn-maravilla{
     margin-top: 10px;
-    background-color: #2eaf77;
+    /* background-color: #62aff8; */
+    background-color: #8cb9e4;
+
     
     padding: 10px;
-    color: white;
+    color:white;
     border-radius: 10px;
     width: 180px;
     font-weight:500;
+    font-size: 1.1rem;
 }
 .btn-maravilla:hover{
     cursor: pointer;
     font-weight:bold;
-    background-color: #498f70;
+    background-color: #7aa2c9;
+
 
 }
 .section-maravillas{
     width: 300px;
-    background-color: #498f70;
-    color: white;
+    background-color: #9db8d1;
+    color: black;
     border-radius: 15px;
     box-shadow: 1px 1px 2px black;
 }
@@ -101,7 +108,7 @@ nav div a:hover{
 .section-maravillas button{
     padding: 10px;
     background-color: white;
-    color: #2eaf77;
+    color: black;
     font-weight: 600;
     margin: 10px ;
     border-radius: 15px;
@@ -112,7 +119,7 @@ nav div a:hover{
     box-shadow: 1px 1px 2px black;
 }
 
-/* PAISES */
+/* ARGENTINA */
 .section-argentina{
     /* background-color: #2eaf77; */
     width: 100%;
@@ -132,11 +139,12 @@ margin-top: 150px;
 }
 .ctn-map{
     height: 100%;
-    width: 660px;
+    width: 50.6%;
     /* padding-top: 20px; */
     margin-left: auto;
     /* background-color: aqua; */
-    background-color: #73bbfa9c;
+    background-color: #8cb9e49c;
+    text-align: center;
 }
 .ctn-map svg{
     padding-top: 30px;
