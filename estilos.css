@@ -110,11 +110,12 @@ nav div a:hover{
 
 /* PAISES */
 .ctn-map{
-    width: 600px;
+    width: 640px;
 }
 .ctn-map svg{
     background-color: lightblue;
 width: 100%;
 height: 100%;
+padding-top: 20px;
 margin: auto;
 }

@@ -20,7 +20,7 @@ export const router =  (urlHash) => {
             return mainRoot.appendChild(Maravillas())
         }
         case "#/paises":{
-            mainRoot.style.backgroundImage = "url('')";
+            mainRoot.style.backgroundImage = "url('../assets/argentina.jpg')";
             return mainRoot.appendChild(Paises())
         }
     }
