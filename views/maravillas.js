@@ -57,7 +57,7 @@ export const Maravillas = () => {
 
     div.querySelector('.btn-maravilla').addEventListener('click', () => {
         div.innerHTML = '';
-        div.appendChild(showMonument(0)); // Empezamos con el primer elemento del array
+        div.appendChild(showMonument(0)); 
     });
 
     return div;
