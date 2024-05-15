@@ -15,8 +15,5 @@ export const BeneficiosViajar = [
     },
     {
         Habilidades: "Interactuar con personas de diferentes culturas mejora tus habilidades sociales y capacidad de adaptación."
-    }, {
-        Creatividad: "Explorar nuevos lugares y culturas puede inspirarte y estimular tu creatividad.",
-
     }
 ]
