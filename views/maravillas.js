@@ -2,12 +2,12 @@
 export const Maravillas = () => {
 
     const monumentos = [
-        { nombre: "Muralla China", urlImage: '../assets/maravillas/muralla.jpg' }, 
-        { nombre: "Petra", urlImage: '../assets/maravillas/petra.jpg' },
+        { nombre: "Cristo Redentor", urlImage: '../assets/maravillas/cristo.jpg' },
         { nombre: "Taj Mahal", urlImage: '../assets/maravillas/tajmahal.jpg' },
         { nombre: "Machu Picchu", urlImage: '../assets/maravillas/machu.jpg' },
-        { nombre: "Cristo Redentor", urlImage: '../assets/maravillas/cristo.jpg' },
+        { nombre: "Petra", urlImage: '../assets/maravillas/petra.jpg' },
         { nombre: "Chichén Itzá", urlImage: '../assets/maravillas/chichen.jpg' },
+        { nombre: "Muralla China", urlImage: '../assets/maravillas/muralla.jpg' }, 
         { nombre: "Coliseo", urlImage: '../assets/maravillas/coliseo.jpg' },
 
         
