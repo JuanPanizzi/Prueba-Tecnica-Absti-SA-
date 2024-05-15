@@ -1,7 +1,6 @@
 export const Home = ( ) =>{
 
     
-console.log('se ejecuta home');
 
     const homeView = `
     <h1>Explore el mundo</h1>

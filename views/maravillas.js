@@ -1,7 +1,6 @@
 
 export const Maravillas = () => {
 
-    console.log('se ejecuta maravillas')
     const monumentos = [
         { nombre: "Muralla China", urlImage: '../assets/maravillas/muralla.jpg' }, 
         { nombre: "Petra", urlImage: '../assets/maravillas/petra.jpg' },

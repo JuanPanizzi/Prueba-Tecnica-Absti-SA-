@@ -149,7 +149,7 @@ nav div a:hover {
     margin-top: 150px;
 
     color: white;
-    text-shadow: 2px 5px black;
+    text-shadow: 2px 2px black;
     font-size: 1.8rem;
 }
 
@@ -194,8 +194,7 @@ nav div a:hover {
 }
 
 .section-beneficios {
-    background-color: #8cb9e4d2;
-    /* background-color: ; */
+    /* background-color: #8cb9e4d2; */
     /* background-color: #7aa2c9; */
     background-color: #ffffffbe;
     width: 50%;
@@ -265,6 +264,17 @@ nav div a:hover {
 
         /* padding: 0; */
     }
+    /* VIAJAR */
+    .section-beneficios{
+        width: 100%;
+        margin: auto;
+        height: 70%;
+        padding: 0%;
+        font-size: 0.6rem;
+    }
+    .section-beneficios h1{
+        padding-top: 20px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -322,5 +332,30 @@ nav div a:hover {
         margin: auto;
         width: 100%;
         height: 100%;
+    }
+    /* VIAJAR */
+    .section-beneficios{
+        width: 100%;
+        font-size: 0.6rem;
+        height: 70%;
+        margin: auto;
+    }
+    .section-beneficios h1{
+        text-align: center;
+        margin-top: 0px;
+        font-size: 1.5rem;
+    }
+    .div-beneficios{
+        margin: auto;
+        /* background-color: red; */
+    
+    }
+}
+@media (max-width: 1200px) {
+    .section-beneficios{
+        font-size: 0.8rem;
+    }
+    .section-beneficios h1{
+        font-size: 1.5rem;
     }
 }

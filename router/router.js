@@ -7,7 +7,6 @@ import { Viajar } from "../views/Viajar.js";
 
 export const router =  (urlHash) => {
 
-    console.log(urlHash)
 
     let mainRoot = document.getElementById('mainRoot');
     mainRoot.innerHTML = '';
