@@ -1,6 +1,6 @@
 import { Home } from "../views/home.js";
 import { Maravillas } from "../views/maravillas.js";
-import { Paises } from "../views/paises.js";
+import { Argentina } from "../views/Argentina.js";
 
 
 export const router =  (urlHash) => {
@@ -19,9 +19,9 @@ export const router =  (urlHash) => {
             mainRoot.style.backgroundImage = "url('../assets/coliseo.jpg')";
             return mainRoot.appendChild(Maravillas())
         }
-        case "#/paises":{
+        case "#/argentina":{
             mainRoot.style.backgroundImage = "url('../assets/argentina.jpg')";
-            return mainRoot.appendChild(Paises())
+            return mainRoot.appendChild(Argentina())
         }
     }
 }
